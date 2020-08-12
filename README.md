@@ -1,4 +1,4 @@
-# NgBasis
+# try-ngrx-component-store
 
 ![](https://github.com/kasaharu/try-ngrx-component-store/workflows/Node%20CI/badge.svg)
 
