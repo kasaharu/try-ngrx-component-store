@@ -1,3 +1,29 @@
-.main {
-  padding: 24px;
+a {
+  padding: 4px 10px;
+  text-decoration: none;
+  display: inline-block;
+  background-color: #eee;
+  border-radius: 4px;
+
+  &:not(:first-child) {
+    margin-left: 8px;
+  }
+
+  &:visited,
+  &:link {
+    color: #334953;
+  }
+
+  &:hover {
+    color: #039be5;
+    background-color: #cfd8dc;
+  }
+
+  &.active {
+    color: #039be5;
+  }
+}
+
+main {
+  padding: 16px;
 }
