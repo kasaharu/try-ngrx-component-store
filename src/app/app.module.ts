@@ -4,10 +4,11 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { CounterPageComponent } from './features/counter/ui/counter-page/counter-page.component';
 import { CounterComponent } from './features/counter/ui/counter/counter.component';
+import { HeroComponent } from './features/hero/ui/hero/hero.component';
 import { HomeComponent } from './features/home/ui/home/home.component';
 
 @NgModule({
-  declarations: [AppComponent, CounterComponent, HomeComponent, CounterPageComponent],
+  declarations: [AppComponent, CounterComponent, HomeComponent, CounterPageComponent, HeroComponent],
   imports: [BrowserModule, AppRoutingModule],
   providers: [],
   bootstrap: [AppComponent],
