@@ -1,8 +1,9 @@
 <h2>hero component</h2>
+
 <ng-container *ngIf="hero$ | async as hero">
-  <div>{{hero.id}}</div>
-  <div>{{hero.name}}</div>
-  <button (click)="shuffle()">Shuffle</button>
+  <div class="contents">
+    <div>{{ hero.id }}</div>
+    <div>{{ hero.name }}</div>
+    <button (click)="shuffle()">Shuffle</button>
+  </div>
 </ng-container>
-
-
