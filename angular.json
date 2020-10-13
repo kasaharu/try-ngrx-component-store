@@ -51,6 +51,7 @@
               "src/assets"
             ],
             "styles": [
+              "src/assets/styles/reset.css",
               "src/styles.scss"
             ],
             "scripts": []
